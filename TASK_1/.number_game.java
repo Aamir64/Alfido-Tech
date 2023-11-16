@@ -8,7 +8,7 @@ public class NumberGame {
     // Set the number of guesses the user has
     int guessesRemaining = 5;
 
-    // Create a Scanner object to read user input
+    // Create a Scanner object to read user input 
     Scanner scanner = new Scanner(System.in);
 
     // Start the guessing loop
