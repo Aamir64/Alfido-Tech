@@ -20,16 +20,16 @@ public class NumberGame {
         System.out.println("Congratulations! You guessed the correct number!");
         break;
       } else if (userGuess < randomNumber) {
-        System.out.println("Your guess is too low. Try again.");
+        System.out.println("Your guess is too low. again");
       } else {
-        System.out.println("Your guess is too high. Try again.");
+        System.out.println("Your guess is too high. again.");
       }
 
       guessesRemaining--;
     }
 
     if (guessesRemaining == 0) {
-      System.out.println("Sorry, you ran out of guesses. The correct number was: " + randomNumber);
+      System.out.println("you ran out of guesses. The correct number was: " + randomNumber);
     }
   }
 }
